@@ -1,5 +1,5 @@
 # /usr/local/bin
 
-``` sh
-sudo upgrade_apt_packages.sh
+```bash
+sudo ./upgrade_apt_packages.sh
 ```
