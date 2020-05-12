@@ -5,9 +5,9 @@ if [[ $EUID -ne 0 ]]; then
    exit 1
 fi
 
-declare -a requiredPackages=("npm")
+declare -a requiredPackages=("git" "npm")
 
-do-release-upgrade
+# do-release-upgrade
 apt update
 apt full-upgrade -y
 
